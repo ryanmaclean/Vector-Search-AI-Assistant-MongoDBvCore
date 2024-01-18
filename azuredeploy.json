@@ -60,12 +60,12 @@
       "minLength": 8,
       "maxLength": 256,
       "metadata": {
-        "description": "MongoDB vCore password. 8-256 characters, 3 of the following: lower case, upper case, numeric, symbol."
+        "description": "MongoDB vCore password. 8-256 characters, 3 of the following: lower case, upper case, numeric, symbol. CHANGE THE DEFAULT, THIS IS NOT SECURE."
       }
     },
     "appGitRepository": {
       "type": "string",
-      "defaultValue": "https://github.com/Azure/Vector-Search-AI-Assistant-MongoDBvCore.git",
+      "defaultValue": "https://github.com/ryanmaclean/Vector-Search-AI-Assistant-MongoDBvCore.git",
       "metadata": {
         "description": "Git repository URL for the application source. This defaults to the [`Azure/Vector-Search-Ai-Assistant`](https://github.com/Azure/Vector-Search-AI-Assistant-MongoDBvCore.git) repository."
       }
